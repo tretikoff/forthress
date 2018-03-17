@@ -8,5 +8,6 @@ dup 2 < if 0 else
         then 
       endfor
     drop drop drop 
-  then 
-then ;
+  then
+then 
+swap drop ;

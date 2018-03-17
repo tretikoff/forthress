@@ -15,4 +15,6 @@ dup 2 < if 0 else
       endfor
     drop drop drop 
   then 
-then ;
+then
+swap drop 
+;

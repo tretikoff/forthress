@@ -10,4 +10,5 @@ dup 2 < if 0 else
     drop drop drop 
   then
   1 cells allot dup rot rot !
+  swap drop
 then ;
