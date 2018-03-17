@@ -225,7 +225,8 @@ include heap.frt
 drop
 
 include string.frt
-include hash.frt 
+include hash.frt
+include even.frt
 
 : enum 0 repeat
     inbuf word drop dup
