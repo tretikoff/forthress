@@ -227,6 +227,10 @@ drop
 include string.frt
 include hash.frt
 include even.frt
+include prime.frt
+include allot.frt
+include play.frt
+include concat.frt
 
 : enum 0 repeat
     inbuf word drop dup
@@ -237,7 +241,7 @@ include even.frt
 
 
 include recursion.frt
-
+include fib.frt
 include runtime-meta.frt
 include managed-string.frt
 
