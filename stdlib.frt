@@ -231,6 +231,7 @@ include prime.frt
 include allot.frt
 include play.frt
 include concat.frt
+include primarity.frt
 
 : enum 0 repeat
     inbuf word drop dup

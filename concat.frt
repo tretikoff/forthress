@@ -29,7 +29,6 @@
   swap >r copy-word
   ( new-out || out in2 )
  
-  .S
   r> swap copy-word
   ( new-new-out )
   0 swap c!

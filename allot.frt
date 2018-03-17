@@ -1,4 +1,4 @@
-: isPrime
+: isPrimeAllot
 
 dup 2 < if 0 else
   dup 2 = if 1 else
@@ -8,5 +8,6 @@ dup 2 < if 0 else
         then 
       endfor
     drop drop drop 
-  then 
+  then
+  1 cells allot dup rot rot !
 then ;

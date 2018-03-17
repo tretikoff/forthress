@@ -1,3 +1,3 @@
 : play
-  20 allot dup
+  1 cells allot
    ;
