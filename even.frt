@@ -1,4 +1,1 @@
-: isEven
-  dup 2 % 0 =
-  swap drop
-;
+: isEven 2 % not ;
